@@ -1,0 +1,16 @@
+.form-medium{
+    width: 200px;
+    height: 32px
+}
+.form-large{
+    width: 250px;
+    height: 32px
+}
+.form-small{
+    width: 100px;
+    height: 32px
+}
+.form-auto{
+    width: auto;
+    height: 32px
+}
