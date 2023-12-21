@@ -1,0 +1,44 @@
+/* .button-green{
+    background: #2ECC71;
+}
+
+.button-green:hover{
+    background: #26a95c;
+}
+.button-green:active{
+    background: #26a95c;
+}
+.button-gray{
+    background: #585f5b;
+}
+.button-blue{
+    background: #3498DB;
+} */
+
+.spacing-button-small{
+    margin: 5px;
+}
+
+.spacing-button-small:hover{
+    margin: 5px;
+}
+.spacing-button-middle{
+    margin: 10px;
+}
+.spacing-button-large{
+    margin: 15px;
+}
+
+.width-small{
+    width: 50px;
+}
+.width-middle{
+    width: 100px;
+}
+
+.width-large{
+    width: 150px;
+}
+.width-auto{
+    width: 95%;
+}

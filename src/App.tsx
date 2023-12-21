@@ -1,13 +1,16 @@
 import React from 'react';
-import {ModButton} from './components/atoms/button/buttons';
-import { ModInput } from './components/atoms/input/input';
+// import {ModButton} from './components/atoms/button';
+// import { ModInput } from './components/atoms/input';
+
+import {DashBoard} from './components/organism/dashboard';
 
 
 export function App() {
+ 
   return (
     <>
-      <ModButton iconbutton='4' typebutton="primary" sizebutton="middle" >Details</ModButton>
-      <ModInput widthinput= 'form-small' placeholder='Serial Ont' ></ModInput>
+    <DashBoard></DashBoard>
+    {/* <ModButton typebutton='primary' sizebutton='large' colorbutton='#52c41a' widthbutton='width-small' spacingbutton='spacing-button-small'></ModButton> */}
     </>
   );
 }
